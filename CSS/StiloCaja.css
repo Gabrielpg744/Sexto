@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(95, 1, 1) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.caja{
+    width:150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3498db;
+    margin: 15px auto;
+}
+
+.caja1{
+    position: relative;
+    background-color: blue;
+    /*bottom: 90px;*/
+    top: 150px;
+    right: 20px;
+    z-index: -10;
+}
+
+.caja2{
+    z-index: 10;
+}
+
+.caja3{
+    position: absolute;
+    top: 155px;/*ESTA CAJA SE MUEVE HACIA ARRIBA RECORIENDO LOS ESPACIOS*/
+    left: 588px;
+    background-color: blueviolet;
+    z-index: -5;
+}
+
+.caja4{
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.caja5{
+    position: absolute;/*ahora la caja 5 su contenedor sera la caja 4 tomandola de referencia*/
+    top: 15px;
+    left: 80px;
+    background-color:black;
+}
+
+.caja6{
+    background-color: aqua;/*se queda fija hasta abajo*/
+    width: 100%;
+    position: fixed;
+}
+
+.caja7{
+    background-color: coral;/*Va avanzando conforme al scroll*/
+    width: 80px;
+    top: 200px;
+    position: sticky;
+}
+
+

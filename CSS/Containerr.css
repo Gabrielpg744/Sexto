@@ -1,0 +1,9 @@
+main{
+    min-height: 100vh;
+}
+
+hr {
+	height: 7px;
+	background-color: maroon;
+	/*border-color: aqua*/
+}

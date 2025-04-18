@@ -1,0 +1,12 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.border{
+    border: 20px solid lightcoral;
+}
+
+.alert svg {
+    width: 24px;
+    height: 24px;
+  }

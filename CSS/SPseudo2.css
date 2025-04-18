@@ -1,0 +1,47 @@
+body{
+    background-color: #00416d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    background-color: white;
+    color:#000;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.8s;/*sirve para darle tiempo y se vaya cambiando por tiempo*/
+}
+
+.caja1:hover{/*para poner el mouse crezca*/
+    transform: scale(2);/*aunque se agrande no empuja los elementos*/
+}
+
+.caja2{
+    border-top: #000 2px dotted;
+    border-bottom: #003558 5px groove;
+    border-left: #24c504 4px inset;
+    border-right: #0d0081 2px double;
+}
+
+.caja2:hover{
+    transform: rotateX(45deg) rotateY(30deg)
+}
+
+.caja3:hover{
+    transform: translate(100px, 50px);
+}
+
+.caja4:hover{/*inclino caja*/
+    transform: skew(20deg, 10deg);
+}
+
+.caja5:hover{/**/
+    transform: scale(1.2) rotate(45deg);
+    translate:(100px,100px);
+}
+

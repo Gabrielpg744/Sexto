@@ -1,0 +1,62 @@
+html{
+    background-color: transparent;
+}
+.rojo{
+    color: red;
+    text-align: right;
+    font-weight: bolder;
+    line-height: 2.0;
+    text-decoration: blink;
+    font-style: italic;
+    white-space: pre;
+}
+
+#azul{
+    color:blue;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 1.5px 1.5px 3.0px;
+}
+
+.verde{
+    color:green;
+    font-style: oblique;
+    font-variant:small-caps;
+    font-size: 2em;
+    text-indent: 20px;
+}
+/*.rojo, .verde{
+font-style:italic
+font-variant:
+font-weigh:
+font-size: 
+line-height: 
+font-family:
+text-align:
+text-decoration:
+text-transform:
+text-ident:
+text-shadow:
+letter-spacing: 
+worp-spacing: 
+white-space: 
+}
+
+#azul{
+    font-style:italic
+    font-variant:
+    font-weigh:
+    font-size: 
+    line-height: 
+    font-family:
+    text-align:
+    text-decoration:
+    text-transform:
+    text-ident:
+    text-shadow:
+    letter-spacing: 
+    worp-spacing: 
+    white-space:  
+}*/

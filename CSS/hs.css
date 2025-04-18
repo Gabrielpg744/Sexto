@@ -1,0 +1,130 @@
+h1 {
+	margin: 0;/*margen*/
+	padding: 20px 0;/*espacio de arriba y abajo, osea relleno*/
+	color: #00539f;
+	text-shadow: 1.5px 1.5px 3.5px black;/*horizontal, verticaly radio y el desvanecido y el color*/
+	text-align: center;
+}
+hr {
+	height: 7px;
+	background-color: aqua;
+	/*border-color: aqua*/
+}
+h2 {
+	color: red; 
+	width: 500px;
+	border: 3px solid orange;
+	text-align: left;
+}
+
+html {
+  	background-color: #008080;
+}
+
+body {/*recuadro color gris */
+	width: 800px;
+	margin: 0 auto;
+	background-color: #C0C0C0;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+	text-align: justify;
+
+}
+
+.mi-imagen {
+	display: block;
+        margin: 0 auto;
+	alt:"si sale?";
+	width: 290px;
+    	height: 350px;
+	border-radius: 10px;
+}
+
+.mi-imagen1 {
+	display: block;
+    margin: 0 auto;
+	alt:"siii";
+	width: 300px;
+    height: 350px;
+	border-radius: 10px;
+}
+
+
+.contenedor {
+    	display: flex;
+	    width: 290px;
+    	height: 250px;
+    	justify-content: left; /* */
+    	gap: 20px; /* Espacio entre imágenes */
+	border-radius: 10px;
+}
+
+.contenedor1 {
+    display: flex;
+	width: 290px;
+    height: 250px;
+    justify-content: left; /*  */
+    gap: 10px; /* Espacio entre imágenes */
+	border-radius: 8px;
+	/*title: "Imagen de mi :p";*/
+}
+
+
+/*h1 {
+	color: red; 
+	width: 500px;
+	border: 5px solid blue;
+	text-align: right;
+}
+
+
+
+img
+  src="images/dinosaur.jpg"
+  alt="La cabeza y el torso de un esqueleto de dinosaurio;
+           tiene una cabeza grande con dientes largos y afilados"
+
+src="images/dinosaur.jpg"
+  alt="La cabeza y el torso de un esqueleto de dinosaurio;
+           tiene una cabeza grande con dientes largos y afilados"
+  width="400"
+  height="341" 
+
+src="images/dinosaur.jpg"
+  alt="La cabeza y el torso de un esqueleto de dinosaurio;
+           tiene una cabeza grande con dientes largos y afilados"
+  width="400"
+  height="341"
+  title="Exposición de un T-Rex en el museo de la Universidad de Manchester." 
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+img {
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+img {
+  opacity: 0.5;
+}
+
+https://kinsta.com/es/blog/estilo-de-imagen-css/
+*/
+
+
+
+

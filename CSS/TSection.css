@@ -1,0 +1,76 @@
+*{
+    margin: 20px;
+    padding: 0 auto;
+}
+
+body{
+    background-color:rgb(95, 1, 1) ;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+hr {
+	height: 7px;
+	background-color: aqua;
+	/*border-color: aqua*/
+}
+
+section {
+    padding: 20px;
+    height: 700px; /* altura de las secciones */
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.titulo {
+    text-align: center;
+    object-fit: cover;
+    position: sticky;
+    top: 30px;
+    background: white;
+    padding: 10px;
+    font-size: auto;
+    font-weight: bold;
+    border: 2px solid #9dff00;/*linea de contorno*/
+}
+.contenedor {
+    display: flex;
+	width: 290px;
+    height: 250px;
+    justify-content: left; /* */
+    gap: 20px; /* Espacio entre imágenes */
+	border-radius: 10px;/*esquinas circulares*/
+}
+
+.conte{
+    color: white;
+}
+/*.Secciones .Titulo{
+    background-color: rgba(255,255,255,1.0);
+    color: black;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    top: 30px;
+    border: 2px solid #9dff00;
+}
+
+.Contenido{
+    height: 350px;;
+}*/
+
+/*.Todo .Secciones .Contenido{
+    background-color: rgba(255,255,255,0.5);
+    width: 900px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    border-radius: 10px;
+    color: aqua;
+}*/
+
+
+
+

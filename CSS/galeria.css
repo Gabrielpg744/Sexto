@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.galeria
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria .item
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    top: 0px;
+}
+.galeria .item img{
+    height: 100%;
+    width: 100%;
+}
+.galeria .item .caja
+{
+    background-color: rgba(255,255,255,0.5);
+    width: 200px;
+    position: absolute;
+    top: 468px;
+    left: 870px;
+    border-radius: 10px;
+    color: aqua;
+}
+
+/*.galeria .item h3{
+    background-color: rgb(51, 5, 136);
+    color: aqua;
+    top:  498px;
+    left: 870px;
+    font-size: 15px;
+    position:absolute;
+    z-index: 20;
+}
+.galeria .item h2{
+    background-color: rgb(5, 110, 136);
+    color: rgb(243, 243, 243);
+    top:  513px;
+    left: 870px;
+    font-size: 15px;
+    position:absolute;
+    z-index: 20;
+}*/

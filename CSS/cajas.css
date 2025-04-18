@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(21, 5, 117) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: right;
+}
+
+.contenedor5{
+    width: 80%;
+    max-width: 650px;
+    height: 350px;
+    box-shadow: 20px 10px 75px 20px blue, 40px 30px 85px 25px red;;
+    border-radius:20%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column/row;
+    justify-content: center;/*start: izquierda, end: derecha, center: centrado, space-between: principio y final espacio pequeño pero en medio espacio mejor,space-around: espacios simetricos, TODO ESTO DE FORMA HORIZONTAL */
+    align-items: end;/*VERTICAL*/
+}
+
+.caja{
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+    align-content: center;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
